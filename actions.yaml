@@ -1,0 +1,27 @@
+server:
+  port: 8080
+  timeout: 30s
+  environment: "production"
+  enable_cors: true
+
+database:
+  driver: "postgres"
+  connection:
+    host: "db-prod-01.internal"
+    port: 5432
+    username: "admin_user"
+    password: "${DB_PASSWORD}" # Loaded from env
+  pooling:
+    max_connections: 20
+    min_idle: 5
+
+features:
+  - name: "beta_search"
+    enabled: false
+  - name: "dark_mode_ui"
+    enabled: true
+
+logging:
+  level: "info"
+  format: "json"
+  destination: "/var/log/app/output.log"
