@@ -1,0 +1,22 @@
+{
+  "uuid": "7f3b8a12-82d4-4e91-b32c-154a0d8e2f91",
+  "username": "pixel_architect",
+  "account_details": {
+    "tier": "premium",
+    "joined_date": "2024-11-12",
+    "is_active": true,
+    "preferences": {
+      "theme": "dark",
+      "notifications": {
+        "email": true,
+        "sms": false,
+        "push": true
+      }
+    }
+  },
+  "roles": ["editor", "moderator", "alpha_tester"],
+  "social_metrics": {
+    "followers": 1240,
+    "posts": 88
+  }
+}
