@@ -1,0 +1,9 @@
+{
+  "device_id": "iot-sensor-hub-08",
+  "readings": [
+    { "timestamp": 1715000000, "temp_c": 22.5, "humidity": 45 },
+    { "timestamp": 1715000060, "temp_c": 22.6, "humidity": 44 },
+    { "timestamp": 1715000120, "temp_c": 22.8, "humidity": 45 }
+  ],
+  "calibration_offset": -0.2
+}
